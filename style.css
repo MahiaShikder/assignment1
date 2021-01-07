@@ -2,25 +2,21 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 h1{
-    font-size:55px ;
+    font-size:50px ;
 }
 p{
-    color: grey;
+    color: dimgray;
 }
-
+.name-highlight{
+    color:tomato;
+}
 .first-banner{
     background-color:white;
 
 }
-.name-highlight{
-    color:rgb(133, 128, 127);
-}
 .half-width p{
     padding-bottom: 25px;
  }
- .half-width img{
-    width: 100%;
-}
 .half-width{
     width: 40%;
     float: left;
@@ -29,7 +25,12 @@ p{
     font-weight: 700;
     
 }
-
+.half-width img{
+    width: 100%;
+}
+.half-width p{
+    padding-bottom: 25px;
+ }
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon,tomato);
@@ -37,16 +38,19 @@ p{
     padding: 10px 20px;
     border-radius: 5px;
 }
-
+section{
+    padding-bottom:150px ;
+    height: 500px;
+}
 .second-banner{
-    background-color: rgb(243, 225, 225);
+    background-color: white;
 }
 h2{
     font-size: 40px ;
     font-weight: 700;
      }
 .third-banner{
-    background-color: rgb(219, 216, 216);
+    background-color: lightgrey;
     padding-left: 50px;
 }
     
@@ -55,81 +59,78 @@ h2{
     padding:50px 10px ;
     
 }
-.shadow-box{
+.box{
+    box-shadow: 10px  white;
+    border-radius: 10px;
+    width: 20%;
     height:70% ;
     padding: 10px 10px;
     background-color:white;
-    box-shadow: 10px  rgb(236, 233, 233);
-    border-radius: 10px;
-    width: 20%;
     margin-left: 110px;
     float: left;
    
     
 }
-.shadow-box img{
+.box img{
     width: 100%;
 }
-.shadow-box h3{
+.box h3{
     font-size: 20px;
     font-weight: 700;
 }
 
-    
-   
-
 .fourth-banner{
-   background-repeat: no-repeat;
-   background-size:100%;
    background-image: url(images/workchat.png);
    width: 50%;
    margin-left:350px;
    margin-top:200px ;
+   background-size:100%;
+   background-repeat: no-repeat;
    }
-.work-box{
+   .inquiry-box{
        float: left;
    }
-.work-box h1{
+   .inquiry-box h1{
        font-size: 35px;
        color: white;
        padding-top: 20px;
        margin-left:60px;
-
   }
-.work-box a{
-      
+  .inquiry-box a{
+      margin-left: 200px;
       position: absolute;
       margin-top:60px ;
-      margin-left: 100px;
      
   }
-footer{
+  footer{
       background-color: tomato;
   }
-footer p{
+  footer p{
       
-      text-align: center;  
+      text-align: center;
+      
+     
 
   }
-#footer{
+  #footer-sec{
     color: gray;
     text-align: center;
-    padding-bottom: 400px;
 }
 
 .footer-h2{
     font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .footer-h3{
     font-size: 40px;
-    color: rgb(78, 15, 78); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(78, 15, 78);
     
 }
 
 .footer-img{
+    height: 40px;
     width: 40px;
     padding: 5px;
-    height: 40px;
-   
 }
